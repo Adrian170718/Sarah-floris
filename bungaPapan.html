@@ -3,13 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Order Bunga Papan </title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="bungaPapan.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body>
     <!-- list produk start 1 -->
-    <a href="toko_bunga.html">
+    <nav>
+      <div class="">
+        <img src="img/logo.jpg" alt="" />
+      </div>
+      <div id="menu-icon" class="menu-icon">
+        <i class="ph ph-list"></i>
+      </div>
+      <ul id="menu-list" class="hilang">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="#ucapan_wedding">Wedding</a>
+        </li>
+        <li>
+          <a href="#ucapan_selamat">Ucapan Selamat</a>
+        </li>
+        <li>
+          <a href="#berduka">berduka</a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+    <!-- Tampilan Awal -->
+    <section id="ucapan_wedding">
+    <a href="index.html">
       <h2 class="awal">Bunga papan</h2>
     </a>
 
@@ -18,136 +50,25 @@
         class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-35"
       ></div>
 
-      <span class="relative z-10 bg-white px-6 text-lg">Lorem, ipsum.</span>
+      <span class="relative z-10 bg-white px-6 text-lg"></span>
     </span>
 
-    <div class="container grid grid-cols-4 gap-4 max-w-5xl mx-auto py-8">
+    <div class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-9xl mx-auto py-10">
       <a
-        href="https://wa.me/621234567?text=saya ingin order barang dengan kode barang  BP001"
-        class="group block"
-      >
-        <img
-          src="img/produk/gambar7.jpeg"
-          alt=""
-          class="aspect-square w-full rounded object-cover"
-        />
-
-        <div class="mt-3">
-          <h3
-            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
-          >
-            BP001
-          </h3>
-
-          <p class="mt-1 text-sm text-gray-700">Rp. 1.000.000</p>
-        </div>
-      </a>
-
-      <a
-        href="https://wa.me/621234567?text=saya ingin order barang dengan kode barang  BP002"
-        class="group block"
-      >
-        <img
-          src="img/produk/gambar8.jpeg"
-          alt=""
-          class="aspect-square w-full rounded object-cover"
-        />
-
-        <div class="mt-3">
-          <h3
-            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
-          >
-            BP002
-          </h3>
-
-          <p class="mt-1 text-sm text-gray-700">Rp. 1.000.000</p>
-        </div>
-      </a>
-
-      <a
-        href="https://wa.me/621234567?text=saya ingin order barang dengan kode barang  BP003"
-        class="group block"
-      >
-        <img
-          src="img/produk/gambar9.jpeg"
-          alt=""
-          class="aspect-square w-full rounded object-cover"
-        />
-
-        <div class="mt-3">
-          <h3
-            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
-          >
-            BP003
-          </h3>
-
-          <p class="mt-1 text-sm text-gray-700">Rp. 1.000.000</p>
-        </div>
-      </a>
-
-      <a
-        href="https://wa.me/621234567?text=saya ingin order barang dengan kode barang  BP005"
-        class="group block"
-      >
-        <img
-          src="img/produk/gambar10.jpeg"
-          alt=""
-          class="aspect-square w-full rounded object-cover"
-        />
-
-        <div class="mt-3">
-          <h3
-            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
-          >
-            BP004
-          </h3>
-
-          <p class="mt-1 text-sm text-gray-700">Rp. 1.000.000</p>
-        </div>
-      </a>
-
-      <a
-        href="https://wa.me/621234567?text=saya ingin order barang dengan kode barang  BP005"
-        class="group block"
-      >
-        <img
-          src="img/produk/gambar8.jpeg"
-          alt=""
-          class="aspect-square w-full rounded object-cover"
-        />
-
-        <div class="mt-3">
-          <h3
-            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
-          >
-            BP005
-          </h3>
-
-          <p class="mt-1 text-sm text-gray-700">Rp. 1.000.000</p>
-        </div>
-      </a>
-    </div>
-    <!-- list Produk1 end -->
-
-    <!-- list produk2 start -->
-
-    <div class="container grid grid-cols-4 gap-4 max-w-9xl mx-auto py-10">
-      <a
-        href="https://wa.me/621234567?text=saya ingin order barang dengan kode barang  BP006"
+        href="order.html?item=BPW001&price=700000&img=BPW/BPW001.jpeg"
         class="relative block rounded-tr-3xl border border-gray-100"
       >
         <img
-          src="img/produk/gambar17.jpeg"
+          src="img/BPW/BPW001.jpeg"
           alt=""
           class="h-80 w-full rounded-tr-3xl object-cover"
         />
 
         <div class="p-4 text-center">
-          <strong class="text-xl font-medium text-gray-900"> BP006 </strong>
+          <strong class="text-xl font-medium text-gray-900"> BPW001 </strong>
 
           <p class="mt-2 text-pretty text-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-            officia rem vel voluptatum in eum vitae aliquid at sed dignissimos.
+           Bunga Papan Standard Dengan model atas dan bawah 
           </p>
 
           <span
@@ -159,11 +80,137 @@
       </a>
 
       <a
-        href="https://wa.me/621234567?text=saya ingin order barang dengan kode barang  BP006"
+        href="order.html?item=BPW 002&price=700000&img=BPW/BPW002.jpeg"
         class="relative block rounded-tr-3xl border border-gray-100"
       >
         <img
-          src="img/produk/gambar18.jpeg"
+          src="img/BPW/BPW002.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPW002 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPW 003&price=700000&img=BPW/BPW003.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPW/BPW003.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BP003 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPW 004&price=700000&img=BPW/BPW004.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPW/BPW004.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPW004 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700 ">
+            Bunga papan Wedding B004
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPW 005&price=700000&img=BPW/BPW005.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPW/BPW005.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPW005 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPW 006&price=700000&img=BPW/BPW006.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPW/BPW006.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPW006 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPW 007&price=700000&img=BPW/BPW007.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPW/BPW007.jpeg"
           alt=""
           class="h-80 w-full rounded-tr-3xl object-cover"
         />
@@ -172,8 +219,7 @@
           <strong class="text-xl font-medium text-gray-900"> BP007 </strong>
 
           <p class="mt-2 text-pretty text-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-            officia rem vel voluptatum in eum vitae aliquid at sed dignissimos.
+            Lorem ipsum dolor sit amet consectetur adipisicing.
           </p>
 
           <span
@@ -185,22 +231,47 @@
       </a>
 
       <a
-        href="https://wa.me/621234567?text=saya ingin order barang dengan kode barang  BP006"
+        href="order.html?item=BPW 008&price=900000&img=BPW/BPW008.jpeg"
         class="relative block rounded-tr-3xl border border-gray-100"
       >
         <img
-          src="img/produk/gambar19.jpeg"
+          src="img/BPW/BPW008.jpeg"
           alt=""
           class="h-80 w-full rounded-tr-3xl object-cover"
         />
 
         <div class="p-4 text-center">
-          <strong class="text-xl font-medium text-gray-900"> BP008 </strong>
+          <strong class="text-xl font-medium text-gray-900"> BPW008 </strong>
 
           <p class="mt-2 text-pretty text-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-            officia rem vel voluptatum in eum vitae aliquid at sed dignissimos.
+            Bunga papan Wedding B008
           </p>
+          <p>Rp. 900.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+      <a
+        href="order.html?item=BPW 009&price=700000&img=BPW/BPW009.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPW/BPW009.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPW009 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan Wedding BPW009
+          </p>
+          <p>Rp. 700.000</p>
 
           <span
             class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
@@ -211,22 +282,22 @@
       </a>
 
       <a
-        href="https://wa.me/621234567?text=saya ingin order barang dengan kode barang  BP006"
+        href="order.html?item=BPW 010&price=700000&img=BPW/BPW010.jpg"
         class="relative block rounded-tr-3xl border border-gray-100"
       >
         <img
-          src="img/produk/gambar20.jpeg"
+          src="img/BPW/BPW010.jpg"
           alt=""
           class="h-80 w-full rounded-tr-3xl object-cover"
         />
 
         <div class="p-4 text-center">
-          <strong class="text-xl font-medium text-gray-900"> BP009 </strong>
+          <strong class="text-xl font-medium text-gray-900"> BPW010 </strong>
 
           <p class="mt-2 text-pretty text-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-            officia rem vel voluptatum in eum vitae aliquid at sed dignissimos.
+            Bunga Papan Wedding BPW010
           </p>
+          <p>Rp. 700.000</p>
 
           <span
             class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
@@ -237,22 +308,22 @@
       </a>
 
       <a
-        href="https://wa.me/621234567?text=saya ingin order barang dengan kode barang  BP006"
+        href="order.html?item=BPW 011&price=700000&img=BPW/BPW011.jpg"
         class="relative block rounded-tr-3xl border border-gray-100"
       >
         <img
-          src="img/produk/gambar21.jpeg"
+          src="img/BPW/BPW011.jpg"
           alt=""
           class="h-80 w-full rounded-tr-3xl object-cover"
         />
 
         <div class="p-4 text-center">
-          <strong class="text-xl font-medium text-gray-900"> BP010 </strong>
+          <strong class="text-xl font-medium text-gray-900"> BPW011 </strong>
 
           <p class="mt-2 text-pretty text-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-            officia rem vel voluptatum in eum vitae aliquid at sed dignissimos.
+            Bunga Papan Wedding BPW011
           </p>
+          <p>Rp. 700.000</p>
 
           <span
             class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
@@ -261,8 +332,1061 @@
           </span>
         </div>
       </a>
+
+      <a
+        href="order.html?item=BPW 012&price=700000&img=BPW/BPW012.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPW/BPW012.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPW012 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan Wedding BPW012
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPW 013&price=700000&img=BPW/BPW013.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPW/BPW013.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPW013 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan Wedding BPW013
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPW 014&price=700000&img=BPW/BPW014.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPW/BPW014.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPW014 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan Wedding BPW014
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPW 015&price=700000&img=BPW/BPW015.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPW/BPW015.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPW015 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan Wedding BPW015
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+
     </div>
+    </section>
+    <!-- list Produk1 end -->
 
-    <!-- list produk end -->
+
+
+    <!-- list produk2 start-->
+     <section id="ucapan_selamat">
+    <h2 class="awal2">KARANGAN BUNGA UCAPAN SELAMAT</h2>
+    <span class="relative flex justify-center">
+      <div
+        class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-35"
+      ></div>
+
+      <span class="relative z-10 bg-white px-6 text-lg"></span>
+    </span>
+
+    <div class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-9xl mx-auto py-10">
+      <a
+        href="order.html?item=BPC 001&price=700000&img=BPC/BPC001.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC001.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC001 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Selamat & Sukses  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 002&price=700000&img=BPC/BPC002.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC002.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 002 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga papan Strandard dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 003&price=700000&img=BPC/BPC003.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC003.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 003 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 004&price=700000&img=BPC/BPC004.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC004.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 004 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700 ">
+            Bunga papan dengan Ucapan Selamat & Sukes BPC 004
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 005&price=700000&img=BPC/BPC005.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC005.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 005 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga papan Dengan Ucapan Selamat & Sukes
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 006&price=700000&img=BPC/BPC006.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC006.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 006 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan Dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 007&price=700000&img=BPC/BPC007.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC007.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 007 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga papan dengan ucapan Selamat & Sukses
+          </p>
+          Rp. 700.000
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 008&price=700000&img=BPC/BPC008.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC008.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 008 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukes BPC 008
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+      <a
+        href="order.html?item=BPC 009&price=700000&img=BPC/BPC009.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC009.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 009 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 010&price=700000&img=BPC/BPC010.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC010.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPW010 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 011&price=700000&img=BPC/BPC011.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC011.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 011 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 012&price=700000&img=BPC/BPC012.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC012.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 012 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 013&price=700000&img=BPC/BPC013.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC013.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 013 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 014&price=700000&img=BPC/BPC014.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC014.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 014 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 015&price=700000&img=BPC/BPC015.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC015.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 015 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 016&price=700000&img=BPC/BPC016.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC016.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 016 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 017&price=700000&img=BPC/BPC017.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC017.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 017 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 018&price=700000&img=BPC/BPC018.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC018.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 018 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 019&price=700000&img=BPC/BPC019.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC019.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 019 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 020&price=700000&img=BPC/BPC020.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC020.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 020 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 021&price=700000&img=BPC/BPC021.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC021.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 021 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPC 022&price=700000&img=BPC/BPC022.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPC/BPC022.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPC 022 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+            Bunga Papan dengan Ucapan Selamat & Sukses
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+    <!-- list produk2 end-->
+
+
+    <!-- list produk 3 start -->
+     <section id="berduka">
+    <h2 class="awal2">KARANGAN BUNGA UCAPAN TURUT BERDUKA CITA</h2>
+    <span class="relative flex justify-center">
+      <div
+        class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-35"
+      ></div>
+
+      <span class="relative z-10 bg-white px-6 text-lg"></span>
+    </span>
+
+    <div class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-9xl mx-auto py-10">
+      <a
+        href="order.html?item=BPTB 001&price=700000&img=BPTB/BPTB001.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB001.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 001 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 002&price=700000&img=BPTB/BPTB002.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB002.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 002 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 003&price=700000&img=BPTB/BPTB003.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB003.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 003 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 004&price=700000&img=BPTB/BPTB004.jpeg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB004.jpeg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 004 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 005&price=700000&img=BPTB/BPTB005.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB005.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 005 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 006&price=700000&img=BPTB/BPTB006.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB006.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 006 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 007&price=700000&img=BPTB/BPTB007.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB007.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 007 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 008&price=700000&img=BPTB/BPTB008.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB008.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 008 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 009&price=700000&img=BPTB/BPTB009.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB009.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 009 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 500.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 010&price=700000&img=BPTB/BPTB010.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB010.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 010 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 011&price=700000&img=BPTB/BPTB011.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB011.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 011 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 012&price=700000&img=BPTB/BPTB012.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB012.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 012 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+
+      <a
+        href="order.html?item=BPTB 013&price=700000&img=BPTB/BPTB013.jpg"
+        class="relative block rounded-tr-3xl border border-gray-100"
+      >
+        <img
+          src="img/BPTB/BPTB013.jpg"
+          alt=""
+          class="h-80 w-full rounded-tr-3xl object-cover"
+        />
+
+        <div class="p-4 text-center">
+          <strong class="text-xl font-medium text-gray-900"> BPTB 013 </strong>
+
+          <p class="mt-2 text-pretty text-gray-700">
+           Bunga Papan Dengan Ccapan Turut Berduka Cita  
+          </p>
+          <p>Rp. 700.000</p>
+
+          <span
+            class="mt-4 block rounded-md border border-teal-900 bg-teal-900 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+          >
+            beli sekarang
+          </span>
+        </div>
+      </a>
+      </div>
+      </section>
+      
+    <!-- list produk 3 end -->
+
+    
+<script src="script.js"></script>
   </body>
 </html>

@@ -58,14 +58,19 @@ nav ul li a:hover {
     background-color: #a09d9d;
     position: relative;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center;  
 }   
+
+.judul {
+  font-family: 'poppins', sans-serif;
+  color: rgb(165, 43, 43);
+}
 
 .p_katalog {
   color: rgb(15, 15, 15);
   padding-bottom: 1rem;
   font-family: 'poppins', sans-serif;
+  text-align: center;
 }
 
 /* bunga papan start */
